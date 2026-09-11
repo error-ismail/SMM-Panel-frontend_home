@@ -362,8 +362,7 @@ Make sure you have installed:
 ## 1. Clone the Repository
 
 ```bash
-git clone https://github.com/ilovectg/smm-hero.git
-cd smm-hero
+git clone https://github.com/error-ismail/smm-hero.git
 ```
 
 ## 2. Install Dependencies
@@ -395,43 +394,6 @@ npm run build
 ```bash
 npm run preview
 ```
-
----
-
-# ☁️ Netlify Deployment
-
-This project is configured for Netlify with:
-
-```text
-Build command: npm run build
-Publish directory: dist
-```
-
-The repository includes a `netlify.toml` file so these settings can be detected automatically.
-
-### Deploy from GitHub
-
-1. Push the project to GitHub.
-2. Open Netlify.
-3. Select **Add new project → Import an existing project**.
-4. Connect the GitHub repository.
-5. Confirm the build command:
-
-```text
-npm run build
-```
-
-6. Confirm the publish directory:
-
-```text
-dist
-```
-
-7. Deploy the site.
-
-Every new GitHub push can then trigger a new Netlify deployment.
-
----
 
 # 🧠 Technical Highlights
 
@@ -470,23 +432,6 @@ It does not currently include:
 - Database/backend service
 
 These can be added later without requiring the existing visual sections to be redesigned.
-
----
-
-# 🔮 Future Improvements
-
-- [ ] Connect real authentication
-- [ ] Add customer dashboard
-- [ ] Integrate SMM provider APIs
-- [ ] Add real order management
-- [ ] Add payment gateway integration
-- [ ] Add service search and filtering
-- [ ] Add user order tracking
-- [ ] Add backend API
-- [ ] Add database integration
-- [ ] Add automated testing
-
----
 
 # 📈 Project Flow
 
@@ -551,7 +496,7 @@ These can be added later without requiring the existing visual sections to be re
 
 # 👨‍💻 Author
 
-**ilovectg**
+**Md. Ismail Hossen Shohib**
 
 Built as a modern React frontend project with a focus on clean component structure, responsive UI, reusable content, and polished visual presentation.
 
