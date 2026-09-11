@@ -281,8 +281,6 @@ The existing design is intentionally preserved and built around:
 - Scroll and hover interactions
 - Reduced-motion support for selected animations
 
-**No design system or visual layout is changed by this repository cleanup.**
-
 ---
 
 # 🛠️ Tech Stack
@@ -301,7 +299,6 @@ The existing design is intentionally preserved and built around:
 ### Development
 
 - npm
-- ESLint-ready project structure
 - Component-based architecture
 - Custom React hooks
 
@@ -316,7 +313,7 @@ The existing design is intentionally preserved and built around:
 # 📂 Project Structure
 
 ```text
-smm-hero/
+SMM-Panel-frontend_home/
 │
 ├── public/
 │   └── hero.webp
@@ -334,7 +331,6 @@ smm-hero/
 │
 ├── .gitignore
 ├── index.html
-├── netlify.toml
 ├── package.json
 ├── package-lock.json
 ├── vite.config.js
@@ -362,7 +358,7 @@ Make sure you have installed:
 ## 1. Clone the Repository
 
 ```bash
-git clone https://github.com/error-ismail/smm-hero.git
+git clone https://github.com/error-ismail/SMM-Panel-frontend_home.git
 ```
 
 ## 2. Install Dependencies
@@ -506,4 +502,3 @@ Built as a modern React frontend project with a focus on clean component structu
   <b>⚡ Fast UI. 📱 Social Growth. 🚀 Modern React.</b>
 </p>
 '''
-# normalize package name only? keep existing to avoid unintended change
